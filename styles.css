@@ -1,0 +1,288 @@
+body {
+    padding: 10px;
+    width: 97%;
+    height: 94vh;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.this {
+    justify-content: center;
+    border: 1px solid #e5e2e2e7;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.this h3{
+    font-size: 0.7rem;
+    margin: 2px; 
+    color: #e5e2e2e7;  
+}
+
+.menu-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu-container a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #e5e2e2e7;
+}
+
+.menu-container a:hover{
+    text-decoration: underline;
+}
+
+.menu-rec{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transform: scale(0);
+}
+
+.menu-rec img{
+    width: 80%;
+    height: 80%;
+}
+
+.xs{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 10%;
+    cursor: pointer;
+    transform: scale(0);
+}
+
+.close img{
+    width: 10vw;
+}
+
+.mid {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 80px;
+}
+
+.text-container {
+    width: 20%;
+    flex-direction: column;
+    height: 50vh;
+    align-self: center;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.full-text{
+    font-size: 0.9rem;
+    width: 70%;
+    color: #e5e2e2e7;
+}
+
+.read {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.read h3{
+    font-size: 0.9rem;
+}
+
+.read img{
+    width: 15%;
+    height: 10%;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.img-container {
+    display: flex;
+    width: 45%;
+    flex-flow: column nowrap;
+    height: 100%;
+    position: relative;
+    align-self: center;
+}
+
+.imid {
+    width: 100%;
+    height: 80%;
+}
+
+.card-container {
+    width: 90%;
+    height: 25%;
+    justify-content: flex-end;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.perfil {
+    background-color: #111111;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.tarjeta img{
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+}
+
+.consultora{
+    margin-left: 20px;
+    width: 100%;
+    color: white;
+}
+
+.consultora h4{
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.consultora p{
+    font-size: 0.8rem;
+    margin: 0;
+    color: #cccc;
+}
+
+.text{
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+section img{
+    width: 50px;
+    height: 50px;
+}
+
+h3 {
+    color: #efefef;
+}
+
+.creator {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    align-items: flex-end;
+}
+
+@media screen and (max-width:500px){
+
+    .this{
+        width: 25%;
+    }
+    .this h3{
+        font-size: 0.8rem;
+    }
+
+    .menu-container{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: #111111;
+        justify-content: center;
+        align-items: center;
+        transition: transform .3s ease-in-out;
+        transform: translate(110%);
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        padding: 0;
+    }
+
+    .spread{
+        transform: translate(-1%);
+    }
+
+    .menu-container a{
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .menu-rec{
+        transform: scale(1);
+    }
+
+    .tres{
+        cursor: pointer;   
+    }
+
+    .out{
+        transform: scale(0);
+    }
+    
+    .aparece{
+        transform: scale(1);
+        z-index: 20;
+        cursor: pointer;
+    }
+
+    .mid{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1px;
+        height: 100vh;
+    }
+
+    .text-container{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 2.4rem;
+    }
+
+    .full-text{
+        width: 41%;
+        font-size: 0.9rem;
+    }
+    
+    .read img{
+        width: 8%;
+    }
+
+    .img-container{
+        width: 100%;
+        height: 70%;
+    }
+
+    .perfil{
+        width: 80%;
+    }
+
+    .card-container{
+        width: 95%;
+    }
+
+    .text{
+        width: 50%;
+    }
+}
