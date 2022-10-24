@@ -173,6 +173,7 @@ header {
 }
 
 .text{
+    display: flex;
     width: 50%;
     font-size: 1.3rem;
 }
@@ -216,6 +217,14 @@ h3 {
 
     .card-container{
         width: 95%;
+    }
+
+    .consultora h4{
+        font-size: 0.8rem;
+    }
+
+    .consultora p{
+        font-size: 0.7rem;
     }
 
     .text{
@@ -315,6 +324,14 @@ h3 {
         height: 30%;
     }
 
+    .consultora h4{
+        font-size: 0.7rem;
+    }
+
+    .consultora p{
+        font-size: 0.6rem;
+    }
+
     .text{
         width: 60%;
         font-size: 0.9rem;
@@ -327,10 +344,18 @@ h3 {
     }
 
     .perfil{
-        height: 11vh;
+        height: 10vh;
     }
 
+    .consultora h4{
+        font-size: 0.6rem;
+    }
+
+    .consultora p{
+        font-size: 0.5rem;
+    }
     .text{
-        width: 70%;
+        width: 100%;
+        font-size: 0.8rem;
     }
 }
