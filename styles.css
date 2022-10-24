@@ -1,7 +1,7 @@
 body {
     padding: 10px;
     width: 97%;
-    height: 94vh;
+    height: 95vh;
     background-color: #111111;
     display: flex;
     flex-direction: column;
@@ -291,7 +291,7 @@ h3 {
     }
 
     .full-text{
-        width: 41%;
+        width: 80%;
         font-size: 0.9rem;
     }
     
@@ -311,10 +311,12 @@ h3 {
 
     .card-container{
         width: 95%;
+        height: 30%;
     }
 
     .text{
         width: 59%;
+        font-size: 1rem;
     }
 }
 
