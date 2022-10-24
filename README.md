@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://elpinto110.github.io/ResponsiveChallenge3/">
       Solution
     </a>
     <span> | </span>
